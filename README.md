@@ -1,49 +1,42 @@
-🚀 V VIJAY — Portfolio Website
-MERN Stack Developer · Coimbatore, India · Open to Work 🟢
-�
-�
-�
-�
+
+🟢 MERN Stack Developer · Coimbatore, India · Open to Work
+📧 vijayvijay23747@gmail.com
+💼 LinkedIn
+🐙 GitHub
+📸 Instagram
 👨‍💻 About Me
 Js
-🎓 B.Com — Corporate Secretaryship & Computer Applications, Bharathiyar University
+🎓 B.Com — Corporate Secretaryship & CS · Bharathiyar University · 2022–2025
 💻 Currently completing 3-Month MERN Stack Bootcamp
 📈 Background in Marketing · Sales · Customer Service · Data Management
 🔍 Actively looking for Internships & Entry-Level Developer roles
 🛠️ Tech Skills
 ✅ Current Skills
 Skill
-Level
+Proficiency
 🌐 HTML5
-████████████░░ 90%
+90%
 🎨 CSS3
-███████████░░░ 85%
+85%
 ⚡ JavaScript
-██████████░░░░ 80%
+80%
 🅱️ Bootstrap
-███████████░░░ 85%
+85%
 💎 jQuery
-█████████░░░░░ 75%
+75%
 📦 JSON
-█████████░░░░░ 75%
+75%
 🔥 Currently Learning — MERN Stack
-Technology
-Badge
 ⚛️ React.js
-�
 🟢 Node.js
-�
 🚂 Express.js
-�
 🍃 MongoDB
-�
 🔗 REST APIs
-�
-⚙️ Tools Used
-�
-�
-�
-�
+⚙️ Tools & Libraries
+🌌 Three.js (r128)
+⚡ GSAP 3.12
+🔧 Git & GitHub
+💻 VS Code
 🌟 Portfolio Features
 Feature
 Description
@@ -63,17 +56,14 @@ Animated progress bars on scroll
 Built-in form with validation
 📂 Projects
 ⌚ SmartFitPro — Smart Watch Landing Page
-Professional product landing page for a premium smart watch brand
+Professional landing page for a premium smart watch brand
 ✅ Animated hero banner & dynamic navigation
 ✅ Smooth scrolling & CSS animations
 ✅ Fully responsive design
-Stack:
-�
-�
-�
+🛠️ Stack: HTML5 · CSS3 · JavaScript
 🔗 GitHub · Live Demo
 🚀 Next Project — MERN Stack App (Coming Soon)
-Full-stack app with React + Node.js + Express + MongoDB. In active development! 👀
+Full-stack app with React + Node.js + Express + MongoDB — In active development! 👀
 💼 Work Experience
 Role
 Domain
@@ -95,7 +85,7 @@ Corporate Secretaryship & CS · Bharathiyar University · 2022–2025
 React · Node.js · Express · MongoDB · 3 Months · 2025
 📬 Contact Me
 Platform
-Link
+Details
 📧 Email
 vijayvijay23747@gmail.com
 💼 LinkedIn
@@ -106,8 +96,5 @@ github.com/vijay-890
 @stugamervijay
 📍 Location
 Coimbatore, Tamil Nadu, India
-�
-
 © 2025 V Vijay · Built with ❤️ in Coimbatore, India
 ⭐ If you like this — drop a star! It motivates me to build more. ⭐
-�
