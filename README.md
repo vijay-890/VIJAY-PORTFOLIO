@@ -1,64 +1,79 @@
 🚀 V VIJAY — Portfolio Website
-�
-
-�
+MERN Stack Developer · Coimbatore, India · Open to Work 🟢
 �
 �
-A modern, interactive developer portfolio built with HTML5, CSS3 & JavaScript
-🌐 Live Demo • 📧 Contact Me • 💼 LinkedIn • 🐙 GitHub
 �
-
+�
 👨‍💻 About Me
-I'm V Vijay, a dedicated professional transitioning into web development from Coimbatore, India.
-🎓 B.Com — Corporate Secretaryship & Computer Applications, Bharathiyar University (2022–2025)
-💻 Currently completing an intensive 3-Month MERN Stack Development Course
-📈 Background in Marketing, Sales & Customer Service — giving me a unique business + tech edge
-🔍 Actively looking for internships & entry-level developer roles
-✨ Portfolio Features
+Js
+🎓 B.Com — Corporate Secretaryship & Computer Applications, Bharathiyar University
+💻 Currently completing 3-Month MERN Stack Bootcamp
+📈 Background in Marketing · Sales · Customer Service · Data Management
+🔍 Actively looking for Internships & Entry-Level Developer roles
+🛠️ Tech Skills
+✅ Current Skills
+Skill
+Level
+🌐 HTML5
+████████████░░ 90%
+🎨 CSS3
+███████████░░░ 85%
+⚡ JavaScript
+██████████░░░░ 80%
+🅱️ Bootstrap
+███████████░░░ 85%
+💎 jQuery
+█████████░░░░░ 75%
+📦 JSON
+█████████░░░░░ 75%
+🔥 Currently Learning — MERN Stack
+Technology
+Badge
+⚛️ React.js
+�
+🟢 Node.js
+�
+🚂 Express.js
+�
+🍃 MongoDB
+�
+🔗 REST APIs
+�
+⚙️ Tools Used
+�
+�
+�
+�
+🌟 Portfolio Features
 Feature
 Description
-🎨 3D Particle Hero
-Three.js animated background with interactive mouse tracking
+🌌 3D Particle Hero
+Three.js animated background with mouse tracking
 🖱️ Custom Cursor
 Smooth animated cursor with hover effects
 📱 Fully Responsive
-Works perfectly on mobile, tablet & desktop
+Mobile, tablet & desktop friendly
 ⚡ Scroll Animations
-GSAP + IntersectionObserver reveal animations
+GSAP + IntersectionObserver reveals
 🃏 3D Card Tilt
-Mouse-based perspective tilt on skill & project cards
-📊 Animated Skill Bars
-Progress bars that animate on scroll
+Mouse-based perspective tilt on cards
+📊 Skill Bars
+Animated progress bars on scroll
 📬 Contact Form
-Built-in contact form with validation
-🛠️ Tech Stack
-Current Skills
-�
-�
-�
-�
-�
-�
-Currently Learning — MERN Stack
-�
-�
-�
-�
-Built With
-�
-�
+Built-in form with validation
 📂 Projects
-⌚ SmartFitPro — Landing Page
-A professional landing page for a premium smart watch brand
-✅ Animated navigation & dynamic hero banner
-✅ Smooth scrolling & responsive design
-✅ Eye-catching CSS animations
-Stack: HTML5, CSS3, JavaScript
-🔗 GitHub | ↗ Live Demo
-🚀 Next Project — Coming Soon
-Full-stack MERN application currently in development
-React + Node.js + Express + MongoDB
-Stay tuned! 👀
+⌚ SmartFitPro — Smart Watch Landing Page
+Professional product landing page for a premium smart watch brand
+✅ Animated hero banner & dynamic navigation
+✅ Smooth scrolling & CSS animations
+✅ Fully responsive design
+Stack:
+�
+�
+�
+🔗 GitHub · Live Demo
+🚀 Next Project — MERN Stack App (Coming Soon)
+Full-stack app with React + Node.js + Express + MongoDB. In active development! 👀
 💼 Work Experience
 Role
 Domain
@@ -70,25 +85,29 @@ Sales & Business Development
 Hospitality & Customer Service
 🖥️ Data Entry Operator
 Data Management
-📬 Contact
-�
-
+🔑 These roles built strong communication, leadership & problem-solving skills — invaluable as a developer.
+🎓 Education
+Degree
+Details
+🎓 B.Com
+Corporate Secretaryship & CS · Bharathiyar University · 2022–2025
+💻 MERN Stack Bootcamp
+React · Node.js · Express · MongoDB · 3 Months · 2025
+📬 Contact Me
 Platform
 Link
 📧 Email
 vijayvijay23747@gmail.com
 💼 LinkedIn
-vijay-v890824
+linkedin.com/in/vijay-v890824
 🐙 GitHub
-vijay-890
+github.com/vijay-890
 📸 Instagram
 @stugamervijay
 📍 Location
 Coimbatore, Tamil Nadu, India
 �
 
-�
-
 © 2025 V Vijay · Built with ❤️ in Coimbatore, India
-⭐ If you like this portfolio, give it a star! ⭐
+⭐ If you like this — drop a star! It motivates me to build more. ⭐
 �
