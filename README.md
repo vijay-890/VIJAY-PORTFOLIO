@@ -1,5 +1,9 @@
 🚀 V VIJAY — Portfolio Website
+�
 
+�
+�
+�
 A modern, interactive developer portfolio built with HTML5, CSS3 & JavaScript
 🌐 Live Demo • 📧 Contact Me • 💼 LinkedIn • 🐙 GitHub
 �
@@ -29,7 +33,20 @@ Progress bars that animate on scroll
 Built-in contact form with validation
 🛠️ Tech Stack
 Current Skills
+�
+�
+�
+�
+�
+�
 Currently Learning — MERN Stack
+�
+�
+�
+�
+Built With
+�
+�
 📂 Projects
 ⌚ SmartFitPro — Landing Page
 A professional landing page for a premium smart watch brand
@@ -54,7 +71,7 @@ Hospitality & Customer Service
 🖥️ Data Entry Operator
 Data Management
 📬 Contact
-
+�
 
 Platform
 Link
@@ -68,7 +85,10 @@ vijay-890
 @stugamervijay
 📍 Location
 Coimbatore, Tamil Nadu, India
+�
 
+�
 
 © 2025 V Vijay · Built with ❤️ in Coimbatore, India
 ⭐ If you like this portfolio, give it a star! ⭐
+�
