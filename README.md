@@ -4,7 +4,7 @@ A responsive, single-page portfolio showcasing Vijay's web development projects,
 
 ## About
 
-Based in Coimbatore, India. Vijay holds a Bachelor of Commerce in Corporate Secretaryship and Computer Applications from Bharathiyar University (2022–2025), and is building full-stack skills through MERN training.
+Based in Coimbatore, India. Vijay holds a Bachelor of Commerce in Corporate Secretaryship and Computer Applications from Bharathiyar University (2022–2025), and has 3 months of MERN stack training.
 
 ## Featured projects
 
