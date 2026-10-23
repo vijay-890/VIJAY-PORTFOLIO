@@ -8,12 +8,23 @@ Based in Coimbatore, India. Vijay holds a Bachelor of Commerce in Corporate Secr
 
 ## Featured projects
 
-- **SmartFitPro** — Responsive smartwatch landing page built with HTML, CSS, and JavaScript.
+- **SmartFit Pro** — Static smartwatch storefront concept with product details and preorder sections, built with HTML and CSS.
 - **QuickFix Marketplace** — Service marketplace with customer, provider, and admin workflows, job requests, chat, and real-time notifications. Built with React, Node.js, Express, MongoDB, and Socket.IO.
 - **Aadvik Boutique** — Responsive boutique storefront with dynamic product rendering and collection search, built with HTML, CSS, and JavaScript.
 - **ShopHub E-Commerce** — Online store with product search, shopping cart, wishlist, reviews, and order management, built with HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
 
-Each project card links to its source repository. Browse [all GitHub repositories](https://github.com/vijay-890?tab=repositories).
+## More from GitHub
+
+- **ChefTrack Pro** — Recipe-learning app with recipes, progress, reviews, and Tamil/English language switching; React, Express, and MongoDB.
+- **Navigation Landing Page** — Web design course landing-page exercise with navigation, search, and login-panel UI; HTML, CSS, and JavaScript.
+- **HTML Fundamentals Practice** — Practice with page structure, images, lists, forms, links, and expandable content.
+- **JavaScript Calculator** — Beginner calculator for the four basic arithmetic operations.
+- **jQuery Effects Practice** — Small examples of hide/show, fade, toggle, and slide effects.
+- **Login & Sign-up UI** — Front-end flip-panel demo; it does not authenticate users or store account data.
+- **User Management API** — Express routes to list, view, add, and delete sample users; data is held in memory.
+- **Express Learning API** — Express 5 practice API with status and sample student endpoints.
+
+The portfolio has 12 project cards. Each card links to its source repository. Browse [all GitHub repositories](https://github.com/vijay-890?tab=repositories).
 
 ## Portfolio features
 
