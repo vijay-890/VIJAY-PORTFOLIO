@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>V Vijay | MERN Stack Developer</title>
-<meta name="description" content="V Vijay - MERN Stack Developer from Coimbatore, India. Portfolio showcasing web development projects and skills.">
+<title>V Vijay | Web Developer Portfolio</title>
+<meta name="description" content="V Vijay is a web developer in Coimbatore, India. Explore responsive websites and full-stack projects built with modern web technologies.">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -590,14 +590,8 @@ section { padding: 7rem 0; position: relative; }
   border-bottom: 1px solid transparent;
 }
 .project-link:hover { border-bottom-color: var(--cyan); }
+.project-more { display: flex; justify-content: center; margin-top: 2rem; }
 
-.project-placeholder {
-  opacity: 0.4;
-  pointer-events: none;
-}
-.project-placeholder .project-thumb {
-  background: linear-gradient(135deg, #0d1630, #0d1630);
-}
 
 /* ─── EXPERIENCE ─── */
 #experience { background: var(--bg-dark); }
@@ -817,6 +811,7 @@ section { padding: 7rem 0; position: relative; }
 
 /* Form */
 .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.contact-note { color: var(--gray); font-size: 0.85rem; line-height: 1.5; text-align: center; }
 .form-group { position: relative; }
 .form-group label {
   font-family: 'JetBrains Mono', monospace;
@@ -978,11 +973,14 @@ footer p span { color: var(--cyan); }
   .tl-duties { grid-template-columns: 1fr; }
 }
 
+@media (max-width: 900px) {
+  .nav-links, .nav-cta { display: none; }
+  .hamburger { display: flex; }
+}
+
 @media (max-width: 768px) {
   nav { padding: 1rem 1.5rem; }
   nav.scrolled { padding: 0.8rem 1.5rem; }
-  .nav-links, .nav-cta { display: none; }
-  .hamburger { display: flex; }
   .skills-grid { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .hero-btns { flex-direction: column; align-items: center; }
@@ -1031,11 +1029,11 @@ footer p span { color: var(--cyan); }
 <section id="hero">
   <canvas id="hero-canvas"></canvas>
   <div class="hero-content">
-    <p class="hero-label">// Portfolio 2025</p>
+    <p class="hero-label">// Portfolio 2026</p>
     <h1 class="hero-name">
       <span class="fill">V</span> VIJAY
     </h1>
-    <p class="hero-title">MERN Stack Developer <span>· In Learning</span></p>
+    <p class="hero-title">Web Developer <span>· Learning the MERN Stack</span></p>
     <p class="hero-loc">Coimbatore, India</p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -1065,7 +1063,7 @@ footer p span { color: var(--cyan); }
       </div>
       <div class="about-text reveal-right">
         <p>I am a <strong>dedicated professional transitioning into web development</strong>, driven by a passion for building responsive, interactive web applications that make an impact.</p>
-        <p>Completed my <strong>Bachelor of Commerce</strong> with specialization in Corporate Secretaryship and Computer Applications from Bharathiyar University (2022–2025). Currently undertaking an intensive <strong>3-month MERN Stack development course</strong>.</p>
+        <p>I earned a <strong>Bachelor of Commerce in Corporate Secretaryship and Computer Applications</strong> from Bharathiyar University (2022–2025), and I am building my full-stack skills through MERN training.</p>
         <p>My background in <strong>marketing, sales, and customer service</strong> gives me a unique edge — combining business acumen with technical skills to deliver solutions that resonate with real users.</p>
         <div class="edu-badge">
           <span class="icon">🎓</span>
@@ -1080,7 +1078,7 @@ footer p span { color: var(--cyan); }
             <span class="stat-label">Skills</span>
           </div>
           <div class="stat-box reveal d2">
-            <span class="stat-num">1+</span>
+            <span class="stat-num">4</span>
             <span class="stat-label">Projects</span>
           </div>
           <div class="stat-box reveal d3">
@@ -1169,38 +1167,92 @@ footer p span { color: var(--cyan); }
         </div>
         <div class="project-body">
           <div class="project-title">SmartFitPro</div>
-          <div class="project-desc">A professional landing page for a premium smart watch brand featuring animated navigation, dynamic hero banner, smooth scrolling, and fully responsive design with eye-catching animations.</div>
+          <div class="project-desc">A responsive smartwatch landing page with an animated hero, smooth navigation, and a product-focused layout.</div>
           <div class="project-techs">
             <span class="tech-badge">HTML5</span>
             <span class="tech-badge">CSS3</span>
             <span class="tech-badge">JavaScript</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/vijay-890" class="project-link" target="_blank">
-              <span>⬡</span> GitHub
-            </a>
-            <a href="#" class="project-link">
-              <span>↗</span> Live Demo
+            <a href="https://github.com/vijay-890/Smart-fit-Pro-Project" class="project-link" target="_blank" rel="noopener noreferrer">
+              <span>⬡</span> GitHub Repository
             </a>
           </div>
         </div>
       </div>
-      <div class="project-card project-placeholder reveal-right">
+      <div class="project-card reveal-right">
         <div class="project-thumb">
           <div class="project-thumb-grid"></div>
-          <div class="project-thumb-icon">🚀</div>
-          <div class="project-tag">Coming Soon</div>
+          <div class="project-thumb-icon">🛠️</div>
+          <div class="project-tag">Service Marketplace</div>
         </div>
         <div class="project-body">
-          <div class="project-title">Next Project</div>
-          <div class="project-desc">Currently building new projects while completing the MERN Stack course. Stay tuned for exciting full-stack applications powered by React, Node.js, Express and MongoDB.</div>
+          <div class="project-title">QuickFix Marketplace</div>
+          <div class="project-desc">A full-stack marketplace connecting customers with local service professionals, with job requests, provider dashboards, chat, and real-time notifications.</div>
           <div class="project-techs">
             <span class="tech-badge">React</span>
             <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
             <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Socket.IO</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/vijay-890/quickfix-marketplace" class="project-link" target="_blank" rel="noopener noreferrer">
+              <span>⬡</span> GitHub Repository
+            </a>
           </div>
         </div>
       </div>
+      <div class="project-card reveal-left">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-icon">🛍️</div>
+          <div class="project-tag">Boutique Storefront</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Aadvik Boutique</div>
+          <div class="project-desc">A responsive boutique storefront with dynamically rendered products and search to help visitors browse collections.</div>
+          <div class="project-techs">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/vijay-890/aadvik-boutique-website" class="project-link" target="_blank" rel="noopener noreferrer">
+              <span>⬡</span> GitHub Repository
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal-right">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-icon">🛒</div>
+          <div class="project-tag">E-Commerce</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">ShopHub E-Commerce</div>
+          <div class="project-desc">An online store with a searchable product catalog, shopping cart, wishlist, product reviews, and order management.</div>
+          <div class="project-techs">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/vijay-890/shophub-ecommerce" class="project-link" target="_blank" rel="noopener noreferrer">
+              <span>⬡</span> GitHub Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-more">
+      <a href="https://github.com/vijay-890?tab=repositories" class="project-link" target="_blank" rel="noopener noreferrer">
+        Browse all GitHub repositories <span>↗</span>
+      </a>
     </div>
   </div>
 </section>
@@ -1306,7 +1358,7 @@ footer p span { color: var(--cyan); }
     <div class="edu-main-card reveal">
       <div class="status-badge">
         <span class="status-dot"></span>
-        Currently Pursuing
+        Completed
       </div>
       <div class="edu-seal">🎓</div>
       <div class="edu-degree">Bachelor of Commerce</div>
@@ -1361,14 +1413,14 @@ footer p span { color: var(--cyan); }
               <div class="contact-item-val">vijayvijay23747@gmail.com</div>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/vijay-v890824" class="contact-item" target="_blank">
+          <a href="https://www.linkedin.com/in/vijay-v890824" class="contact-item" target="_blank" rel="noopener noreferrer">
             <div class="contact-item-icon">💼</div>
             <div>
               <span class="contact-item-label">LinkedIn</span>
               <div class="contact-item-val">vijay-v890824</div>
             </div>
           </a>
-          <a href="https://github.com/vijay-890" class="contact-item" target="_blank">
+          <a href="https://github.com/vijay-890" class="contact-item" target="_blank" rel="noopener noreferrer">
             <div class="contact-item-icon">⬡</div>
             <div>
               <span class="contact-item-label">GitHub</span>
@@ -1384,9 +1436,9 @@ footer p span { color: var(--cyan); }
           </div>
         </div>
         <div class="socials">
-          <a href="https://www.linkedin.com/in/vijay-v890824" class="social-btn" target="_blank" title="LinkedIn">💼</a>
-          <a href="https://github.com/vijay-890" class="social-btn" target="_blank" title="GitHub">🐙</a>
-          <a href="https://www.instagram.com/stugamervijay" class="social-btn" target="_blank" title="Instagram">📸</a>
+          <a href="https://www.linkedin.com/in/vijay-v890824" class="social-btn" target="_blank" rel="noopener noreferrer" title="LinkedIn">💼</a>
+          <a href="https://github.com/vijay-890" class="social-btn" target="_blank" rel="noopener noreferrer" title="GitHub">🐙</a>
+          <a href="https://www.instagram.com/stugamervijay" class="social-btn" target="_blank" rel="noopener noreferrer" title="Instagram">📸</a>
           <a href="mailto:vijayvijay23747@gmail.com" class="social-btn" title="Email">📧</a>
         </div>
       </div>
@@ -1395,26 +1447,24 @@ footer p span { color: var(--cyan); }
         <div class="contact-form" id="contactForm">
           <div class="form-row">
             <div class="form-group">
-              <label>Name *</label>
-              <input type="text" id="fname" placeholder="Your Name" required>
+              <label for="fname">Name *</label>
+              <input type="text" id="fname" placeholder="Your name" required>
             </div>
             <div class="form-group">
-              <label>Email *</label>
+              <label for="femail">Email *</label>
               <input type="email" id="femail" placeholder="your@email.com" required>
             </div>
           </div>
           <div class="form-group">
-            <label>Subject</label>
-            <input type="text" id="fsubject" placeholder="What's this about?">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="What is this about?">
           </div>
           <div class="form-group">
-            <label>Message *</label>
+            <label for="fmessage">Message *</label>
             <textarea id="fmessage" placeholder="Tell me about your project or opportunity..." required></textarea>
           </div>
-          <button class="btn-submit" onclick="handleSubmit()">Send Message →</button>
-          <div id="form-success" style="display:none; text-align:center; padding:1rem; background:rgba(16,185,129,0.1); border:1px solid rgba(16,185,129,0.3); color:#10b981; font-family:'JetBrains Mono',monospace; font-size:0.85rem; letter-spacing:1px; margin-top:0.5rem;">
-            ✓ Message sent! I'll get back to you soon.
-          </div>
+          <button class="btn-submit" onclick="handleSubmit()">Open Email Draft →</button>
+          <p class="contact-note">Your email app will open with your message ready to send.</p>
         </div>
       </div>
     </div>
@@ -1423,10 +1473,10 @@ footer p span { color: var(--cyan); }
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2025 <span>V Vijay</span> · Built with ❤️ in Coimbatore, India</p>
+  <p>© 2026 <span>V Vijay</span> · Built with ❤️ in Coimbatore, India</p>
   <div class="footer-links">
-    <a href="https://github.com/vijay-890" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/vijay-v890824" target="_blank">LinkedIn</a>
+    <a href="https://github.com/vijay-890" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://www.linkedin.com/in/vijay-v890824" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <a href="mailto:vijayvijay23747@gmail.com">Email</a>
   </div>
 </footer>
@@ -1608,24 +1658,24 @@ skillBars.forEach(b => barObs.observe(b));
 
 // ─── CONTACT FORM ───
 function handleSubmit() {
-  const name = document.getElementById('fname').value;
-  const email = document.getElementById('femail').value;
-  const message = document.getElementById('fmessage').value;
+  const name = document.getElementById('fname').value.trim();
+  const emailInput = document.getElementById('femail');
+  const email = emailInput.value.trim();
+  const subject = document.getElementById('fsubject').value.trim() || `Portfolio enquiry from ${name}`;
+  const message = document.getElementById('fmessage').value.trim();
+
   if (!name || !email || !message) {
-    alert('Please fill in required fields (Name, Email, Message).');
+    alert('Please complete the required fields: name, email, and message.');
     return;
   }
-  const btn = document.querySelector('.btn-submit');
-  btn.textContent = 'Sending...';
-  btn.style.opacity = '0.7';
-  setTimeout(() => {
-    btn.style.display = 'none';
-    document.getElementById('form-success').style.display = 'block';
-    document.getElementById('fname').value = '';
-    document.getElementById('femail').value = '';
-    document.getElementById('fsubject').value = '';
-    document.getElementById('fmessage').value = '';
-  }, 1200);
+  if (!emailInput.checkValidity()) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+  const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+  const mailto = `mailto:vijayvijay23747@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailto;
 }
 
 // ─── MOBILE MENU ───
