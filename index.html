@@ -469,38 +469,6 @@ section { padding: 7rem 0; position: relative; }
   box-shadow: 0 0 10px var(--cyan);
 }
 
-.skills-learning {
-  margin-top: 4rem;
-  padding: 2.5rem;
-  background: var(--glass);
-  border: 1px solid var(--border);
-}
-.learning-title {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 4px;
-  color: var(--cyan);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-.learning-chips { display: flex; flex-wrap: wrap; gap: 0.8rem; }
-.chip {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 1px;
-  padding: 0.5rem 1.2rem;
-  border: 1px solid rgba(124,58,237,0.4);
-  color: var(--purple);
-  background: rgba(124,58,237,0.08);
-  transition: all 0.3s;
-  animation: chipPulse 2s ease-in-out infinite;
-}
-.chip:hover { background: rgba(124,58,237,0.2); border-color: var(--purple); }
-.chip:nth-child(2) { animation-delay: 0.3s; }
-.chip:nth-child(3) { animation-delay: 0.6s; }
-.chip:nth-child(4) { animation-delay: 0.9s; }
-.chip:nth-child(5) { animation-delay: 1.2s; }
-
 /* ─── PROJECTS ─── */
 #projects { background: var(--bg-mid); }
 
@@ -940,10 +908,6 @@ footer p span { color: var(--cyan); }
   0%, 100% { transform: scaleY(1); opacity: 1; }
   50% { transform: scaleY(0.5); opacity: 0.3; }
 }
-@keyframes chipPulse {
-  0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; }
-}
 
 /* ─── SCROLL REVEAL ─── */
 .reveal {
@@ -1123,16 +1087,6 @@ footer p span { color: var(--cyan); }
       <div class="skill-card reveal d4">
         <span class="skill-icon">📦</span>
         <div class="skill-name">JSON</div>
-      </div>
-    </div>
-    <div class="skills-learning reveal">
-      <div class="learning-title">// Currently Learning — MERN Stack</div>
-      <div class="learning-chips">
-        <div class="chip">⚛️ React.js</div>
-        <div class="chip">🟢 Node.js</div>
-        <div class="chip">🚂 Express.js</div>
-        <div class="chip">🍃 MongoDB</div>
-        <div class="chip">🔗 RESTful APIs</div>
       </div>
     </div>
   </div>
