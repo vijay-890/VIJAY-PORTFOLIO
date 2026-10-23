@@ -558,6 +558,34 @@ section { padding: 7rem 0; position: relative; }
   border-bottom: 1px solid transparent;
 }
 .project-link:hover { border-bottom-color: var(--cyan); }
+.project-thumb-image {
+  width: 88px; height: 88px;
+  object-fit: contain;
+  position: relative; z-index: 1;
+  filter: drop-shadow(0 0 20px rgba(0,212,255,0.35));
+  animation: float 3s ease-in-out infinite;
+}
+.project-case-study {
+  margin-top: 1.2rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+.project-case-study summary {
+  display: flex; justify-content: space-between; align-items: center;
+  cursor: pointer;
+  list-style: none;
+  color: var(--cyan);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.project-case-study summary::-webkit-details-marker { display: none; }
+.project-case-study summary::after { content: '+'; color: var(--purple); font-size: 1rem; }
+.project-case-study[open] summary::after { content: '−'; color: var(--cyan); }
+.case-study-content { display: grid; gap: 0.8rem; margin-top: 1rem; }
+.case-study-content p { margin: 0; color: var(--gray); font-size: 0.82rem; line-height: 1.65; }
+.case-study-content strong { color: var(--white); font-weight: 600; }
 .project-more { display: flex; justify-content: center; margin-top: 2rem; }
 
 
@@ -1127,7 +1155,7 @@ footer p span { color: var(--cyan); }
       <div class="project-card reveal-right">
         <div class="project-thumb">
           <div class="project-thumb-grid"></div>
-          <div class="project-thumb-icon">🛠️</div>
+          <img class="project-thumb-image" src="https://raw.githubusercontent.com/vijay-890/quickfix-marketplace/main/client/public/quickfix-mark.svg" alt="QuickFix Marketplace logo" loading="lazy">
           <div class="project-tag">Service Marketplace</div>
         </div>
         <div class="project-body">
@@ -1145,6 +1173,14 @@ footer p span { color: var(--cyan); }
               <span>⬡</span> GitHub Repository
             </a>
           </div>
+          <details class="project-case-study">
+            <summary>View case study</summary>
+            <div class="case-study-content">
+              <p><strong>Challenge:</strong> Help customers find local service providers and coordinate jobs through one clear workflow.</p>
+              <p><strong>Solution:</strong> Customer, provider, and admin workspaces support provider discovery, service requests, reviews, and a controlled job lifecycle from open to completed.</p>
+              <p><strong>Engineering:</strong> MongoDB persistence, JWT-protected role-based routes, Socket.IO chat and live notifications, plus validated photo uploads.</p>
+            </div>
+          </details>
         </div>
       </div>
       <div class="project-card reveal-left">
@@ -1218,7 +1254,18 @@ footer p span { color: var(--cyan); }
             <a href="https://github.com/vijay-890/cheftrack-pro" class="project-link" target="_blank" rel="noopener noreferrer">
               <span>⬡</span> View on GitHub
             </a>
+            <a href="https://frontend-dun-chi-37.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+              <span>↗</span> Live Demo
+            </a>
           </div>
+          <details class="project-case-study">
+            <summary>View case study</summary>
+            <div class="case-study-content">
+              <p><strong>Challenge:</strong> Give learners a structured way to explore recipes, track progress, and use the experience in Tamil or English.</p>
+              <p><strong>Solution:</strong> The app combines recipe browsing and details with accounts, levels, progress, and reviews. The live demo currently opens in Tamil and includes a language switch.</p>
+              <p><strong>Data note:</strong> Accounts and progress use MongoDB. Reviews are held in memory and reset when the backend restarts.</p>
+            </div>
+          </details>
         </div>
       </article>
       <article class="project-card reveal-right">
